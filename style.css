@@ -4,6 +4,6 @@ html {
 
 body {
     margin: 0;
-    min-height: 100vh;  /*keeps the page from stretching more than 100%*/
+    min-height: 90vh;  /*keeps the page from stretching more than 100%*/
     background: dodgerblue;
 }
