@@ -9,21 +9,21 @@
  let apiQuotes = [];         //difference between const and let is that const is when the value is never changing
 
  // Show Loading
- function loading() {
+ function loadingSymbol() {
      loader.hidden = false;
      quoteContainer.hidden = true;
  }
 
 
- // Hide Loading
- function complete() {
+ // Hide loading Page
+ function loadingComplete() {
      quoteContainer.hidden = false;
      loader.hidden = true;
  }
 
 // Show New Quote
 function newQuote() {
-    loading();
+    loadingComplete();
     //Pick a random quote from apiQuotes array
     //use Math.floor to whole number
     //Multiply with length of the apiQuotes so that the number is never bigger than it
@@ -47,12 +47,12 @@ function newQuote() {
 
     // Set Quote, Hide Loader
     quoteText.textContent = quote.text;
-    complete();
+    loadingComplete();
 }
 
 // Get Quotes From API
 async function getQuotes() {
-    loading();
+    loadingSymbol();
     const apiUrl = 'https://type.fit/api/quotes';
     try {
         const response = await fetch(apiUrl); //response will not be populated until quotes are fetched from the api
