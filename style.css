@@ -23,6 +23,21 @@ body {
     justify-content: center;
 }
 
+/* grid */
+
+.page {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 95% 5%; /*row height. we want to have 3 rows in the grid*/
+    grid-template-columns: repeat(6,1fr); /*fr=fraction*/
+}
+
+main, footer {
+    grid-column: span 12;
+}
+
+/* Quotes */
+
 .quote-container {
     width: auto;
     min-width: 300px;
@@ -51,6 +66,8 @@ body {
     font-weight: 400;
     font-style: italic;
 }
+
+/* Buttons */
 
 /*Push butons to the far ends of the text box (twitter and New Quote), and also place 15px between quote text and Author name*/
 .button-container {
