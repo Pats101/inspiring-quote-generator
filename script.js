@@ -5,30 +5,28 @@
  const newQuoteBtn = document.getElementById('new-quote');
  const loader = document.getElementById('loader');
 
- 
- let apiQuotes = [];         //difference between const and let is that const is when the value is never changing
+ //difference between const and let is that const is when the value is never changing
+ let apiQuotes = [];         
 
  // Show Loading
- function loadingSymbol() {
+ function showLoadingSymbol() {
      loader.hidden = false;
      quoteContainer.hidden = true;
  }
 
-
- // Hide loading Page
- function loadingComplete() {
+ function removeLoadingSymbol() {
      quoteContainer.hidden = false;
      loader.hidden = true;
  }
 
 // Show New Quote
 function newQuote() {
-    loadingComplete();
+    removeLoadingSymbol();
     //Pick a random quote from apiQuotes array
     //use Math.floor to whole number
     //Multiply with length of the apiQuotes so that the number is never bigger than it
     const quote = apiQuotes[Math.floor(Math.random() * apiQuotes.length)];
-
+ 
     //Check if Author field is blank and replace it with 'Unkown'
     if(!quote.author){
         // pasrse in author as 'Unknown'
@@ -43,16 +41,15 @@ function newQuote() {
         quote.classList.add('long-quote');
     } else {
         quoteText.classList.remove('long-quote');
-    }
-
+    }  
     // Set Quote, Hide Loader
     quoteText.textContent = quote.text;
-    loadingComplete();
+    removeLoadingSymbol();
 }
 
 // Get Quotes From API
 async function getQuotes() {
-    loadingSymbol();
+    showLoadingSymbol();
     const apiUrl = 'https://type.fit/api/quotes';
     try {
         const response = await fetch(apiUrl); //response will not be populated until quotes are fetched from the api

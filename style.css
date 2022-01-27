@@ -84,6 +84,40 @@ button:active {
     box-shadow: 0 0.1rem rgba(255, 255, 255, 0.65);
 }
 
+/* nav Button */
+
+.nav-btn.fas {
+    text-align: end;
+}
+
+#show-favourites {
+    top: 10%;
+}
+
+#homeBtn {
+    top: 3%;
+}
+
+.nav-btn {
+    margin: auto;
+    position: fixed;
+    left: 1%;
+    height: 2rem;
+    width: 9rem;
+    text-align: left;
+    font-size: 1rem;
+    opacity: 0.5;
+}
+
+.nav-btn:hover {
+    opacity: 0.8;
+}
+
+.nav-btn:active {
+    transform: translate(0, 0.3rem);
+    box-shadow: 0 0.1rem rgba(255, 255, 255, 0.65);
+}
+
 /*Change twitter color*/
 .twitter-button:hover {
     color: #38a1f3;
@@ -122,3 +156,5 @@ button:active {
         font-size: 2.5rem;
     }
 }
+
+/* favourite Quotes */
