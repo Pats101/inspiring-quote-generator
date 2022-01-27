@@ -145,6 +145,20 @@ button:active {
     font-size: 1.5rem;
 }
 
+#icon-wrap {
+    width: 50px;
+}
+
+#favourite {
+    cursor: pointer;
+    font-size: 2rem;
+    color: grey;
+}
+
+#favourite:hover{
+    color: red;
+}
+
 /* Loader */
 .loader {
     border: 16px solid #f3f3f3; 
@@ -175,3 +189,7 @@ button:active {
 }
 
 /* favourite Quotes */
+
+.heart {
+    color: red;
+}
