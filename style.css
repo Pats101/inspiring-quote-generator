@@ -189,7 +189,15 @@ button:active {
 }
 
 /* favourite Quotes */
+.fav-q-par {
+    text-align: left;
+    letter-spacing: 2px;
+}
 
 .heart {
     color: red;
+}
+
+h4 {
+    color: blueviolet;
 }
