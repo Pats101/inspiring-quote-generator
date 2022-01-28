@@ -30,6 +30,6 @@ what this web page does is displaces each of the quotes and the author.
 - From this page(window) one will be able to remove the quotes they liked by clicking on the heart with the quote an dit will be removed from the list
 
 #Reason for Project
-The Inspiring Quote Generator is a web page that utilizes an API which spits out quotes along with the author that said it for motivation. I chose this little project based on what I am currently facing.
-We all are just people on earth trying to make meaning of our lives at the same time trying to be there for our loved ones. More times than often, one would feel lost, confused, scared, 
+- The Inspiring Quote Generator is a web page that utilizes an API which spits out quotes along with the author that said it for motivation. I chose this little project based on what I am currently facing.
+We all are just people on earth trying to make meaning out of our lives, and we are trying to be there for our loved ones. More times than often, one would feel lost, confused, scared, 
 discouraged, defeated and they wonder when will they get a break. One can not eat words but some how when words are formed and structured into good sentences they can bring a sense of comfort within.
