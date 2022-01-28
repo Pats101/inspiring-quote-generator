@@ -90,6 +90,7 @@ button {
     box-shadow: 0 0.3rem rgba(121, 121, 121, 0.65);
 }
 
+
 /*Lighten or brighten up the button when cursor is placed over the button*/
 button:hover {
     filter: brightness(110%);
@@ -186,6 +187,15 @@ button:active {
     .quote-text {
         font-size: 2.5rem;
     }
+
+}
+
+img {
+    width: 30px;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* favourite Quotes */
