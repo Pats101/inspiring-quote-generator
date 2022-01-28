@@ -22,7 +22,7 @@
 
     <div class="page" id="page-container">
         <main class="main-container">
-            <div class="container" id="favourites-container">
+            <div class="quote-container" id="favourites-container">
 
             </div>
 
@@ -43,9 +43,9 @@
                         <i class="fab fa-twitter"></i>
                     </button>
                     <div id="icon-wrap">
-                        <i class="fas fa-heart" id="favourite" title="Add to my Favourites"></i>
+                        <i class="fas fa-heart" id="favourite" title="Add to my Favourites" onclick="addQuoteToFavourites()"></i>
                     </div>
-                    <button id="new-quote">New Quote</button>
+                    <button id="new-quote" onclick="newQuote()">New Quote</button>
                 </div>
             </div>
             <!-- Loader -->
@@ -68,6 +68,8 @@
     </div>
     <!-- Script -->
 
+    <!-- JQuery -->
+    <script src="jquery-3.5.1.js"></script>
     <!-- Local Quotes -->
     <script src="quotes.js"></script> 
     <!-- API Quotes -->
