@@ -161,6 +161,12 @@ button:active {
 }
 
 /* Loader */
+.loader-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .loader {
     border: 16px solid #f3f3f3; 
     border-top: 16px solid #4A00E0; 
