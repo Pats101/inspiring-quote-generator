@@ -22,15 +22,8 @@
 - If one clicks the home button from the favourites page(window) it will take them back to the first page(window)
 - On the quotes there are three buttons which include the twitter, heart and next quote button as features in the Home page
 
---> Twitter
+>> Twitter
 - This feature allows user to login on twitter and post the quote without them having to type the quote
-
---> Heart
-- On each quote there will be a grey heart from which they can click and it will turn red, signifying that it has been added to the favorites
-- They can reclick the red heart which will turn from red to grey indicating that the quote has been removed from favourites
-
---> Next Quote
-- Button on click removes current quote on display and pulls in the next random quote for user
 
 >> Favorite
 - This feature is where all the liked quotes will be displayed one line after the other
