@@ -1,14 +1,20 @@
 # inspiring-quote-generator
 
+>> what this web page does is displaces each of the quotes and the author.
+> If a quote captures your interest - you can save it to your favourites list by clicking the grey heart icon which will turn red and save the quote to the local storage.
+> By clicking the favourites Button on the top left corner, your favourites list will be displayed and you can remove or unlike quotes that no longer speaks to you - you can do so by clicking the red heart icon associated with the quote.
+
+
 >> The API used is 'https://type.fit/api/quotes'
 >>> twitter documentation: 'https://developer.twitter.com/en/docs/twitter-for-websites/tweet-button/guides/web-intent'
 - it generates quotes and their author
 
-what this web page does is displaces each of the quotes and the author.
 
-#Features
+
+>Features
 - Home
 - Favorite
+- Twitter
 
 >> Home
 - This feature is where all quotes are displayed one at a time.
@@ -29,8 +35,3 @@ what this web page does is displaces each of the quotes and the author.
 >> Favorite
 - This feature is where all the liked quotes will be displayed one line after the other
 - From this page(window) one will be able to remove the quotes they liked by clicking on the heart with the quote an dit will be removed from the list
-
-#Reason for Project
-- The Inspiring Quote Generator is a web page that utilizes an API which spits out quotes along with the author that said it for motivation. I chose this little project based on what I am currently facing.
-We all are just people on earth trying to make meaning out of our lives, and we are trying to be there for our loved ones. More times than often, one would feel lost, confused, scared, 
-discouraged, defeated and they wonder when will they get a break. One can not eat words but some how when words are formed and structured into good sentences they can bring a sense of comfort within.
