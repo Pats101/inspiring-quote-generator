@@ -1,7 +1,7 @@
 # inspiring-quote-generator
 
-The API used is 'https://type.fit/api/quotes'
-twitter documentation: 'https://developer.twitter.com/en/docs/twitter-for-websites/tweet-button/guides/web-intent'
+>> The API used is 'https://type.fit/api/quotes'
+>>> twitter documentation: 'https://developer.twitter.com/en/docs/twitter-for-websites/tweet-button/guides/web-intent'
 - it generates quotes and their author
 
 what this web page does is displaces each of the quotes and the author.
