@@ -128,13 +128,13 @@ function newQuote() {
         // pasrse in author as 'Unknown'
         authorText.textContent = 'Unknown';
     } else {
-        authorText.textContent = quote.author;
+        authorText.textContent = ">> " + quote.author + " <<";
     }
 
     // Check Quote length to determine styling 
     if(quote.text.length > 120) {
         // Add CSS class which in this case is 'long-quote'
-        quote.classList.add("long-quote");
+        quoteText.classList.add("long-quote");
     } else {
         quoteText.classList.remove("long-quote");
     }  
