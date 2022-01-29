@@ -91,7 +91,7 @@
 
         // check if author field is null and replace it with "Unknown"
         if(!favouriteQuotes[index].author) {
-            favouriteQuotes[index].author = "Unknown";
+            favouriteQuotes[index].author = "Author Unknown";
         }
         $(`#${quotePar.id}`).html(`<i class="fas fa-heart heart" title="remove from favourites" id="${index}"></i>&nbsp;${favouriteQuotes[index].text} (${favouriteQuotes[index].author})`);
     }
@@ -139,7 +139,7 @@ function newQuote() {
     //Check if Author field is blank and replace it with 'Unkown'
     if(!quote.author){
         // pasrse in author as 'Unknown'
-        authorText.textContent = '>> Unknown';
+        authorText.textContent = '>> Author Unknown';
     } else {
         authorText.textContent = ">> " + quote.author;
     }
