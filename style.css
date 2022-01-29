@@ -101,7 +101,6 @@ button:active {
 }
 
 /* nav Button */
-
 .nav-btn.fas {
     text-align: end;
 }
@@ -135,7 +134,7 @@ button:active {
 }
 
 /*Change twitter color*/
-.twitter-button:hover {
+.twitter-button:hover,.new-quote-button:hover {
     color: #38a1f3;
 }
 

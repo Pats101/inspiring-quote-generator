@@ -139,9 +139,9 @@ function newQuote() {
     //Check if Author field is blank and replace it with 'Unkown'
     if(!quote.author){
         // pasrse in author as 'Unknown'
-        authorText.textContent = '>> Unknown <<';
+        authorText.textContent = '>> Unknown';
     } else {
-        authorText.textContent = ">> " + quote.author + " <<";
+        authorText.textContent = ">> " + quote.author;
     }
 
     // Check Quote length to determine styling 
@@ -168,9 +168,6 @@ async function getQuotes() {
         // Catch Error Here 
     }
 }
-
-//On Load
-getQuotes();
 
 
 //-----------------------------------------------------------------------------------------------------------------------------------
@@ -201,6 +198,9 @@ function tweetQuote() {
 }
 
 // Event Listeners
-// Goes at the botton after function that calls it
+// Goes at the botton after function that calls it 
 newQuoteBtn.addEventListener('click', newQuote);
 twitterBtn.addEventListener('click', tweetQuote);
+
+// On Load
+getQuotes();
