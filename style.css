@@ -19,7 +19,6 @@ body {
 }
 
 /* grid */
-
 .page {
     height: 100%;
     display: grid;
@@ -32,7 +31,6 @@ main, footer {
 }
 
 /* Quotes */
-
 .quote-container {
     margin-top: 10%;
     width: auto;
@@ -66,7 +64,6 @@ main, footer {
 }
 
 /* Buttons */
-
 /*Push butons to the far ends of the text box (twitter and New Quote), and also place 15px between quote text and Author name*/
 .button-container {
     margin-top: 15px;
@@ -190,8 +187,6 @@ button:hover .icon {
     100% { transform: rotate(360deg); }
   }
 
-
-
 /* Media Query: Tablet or Smaller */
 @media screen and (max-width: 1000px) {
     .quote-container {
@@ -229,7 +224,6 @@ button:hover .icon {
     .new-quote-button {
         width: 6rem;
     }
-
 }
 
 img {
