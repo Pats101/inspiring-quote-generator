@@ -1,6 +1,6 @@
 # inspiring-quote-generator
 
->> what this web page does is displaces each of the quotes and the author.
+> what this web page does is displaces each of the quotes and the author.
 > If a quote captures your interest - you can save it to your favourites list by clicking the grey heart icon which will turn red and save the quote to the local storage.
 > By clicking the favourites Button on the top left corner, your favourites list will be displayed and you can remove or unlike quotes that no longer speaks to you - you can do so by clicking the red heart icon associated with the quote.
 
