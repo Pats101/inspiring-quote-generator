@@ -6,7 +6,7 @@
 
 > Checkout [Live Demo](https://pats101.github.io/inspiring-quote-generator/)
 >> The API used is 'https://type.fit/api/quotes'
->> twitter documentation: 'https://developer.twitter.com/en/docs/twitter-for-websites/tweet-button/guides/web-intent'
+>>> twitter documentation: 'https://developer.twitter.com/en/docs/twitter-for-websites/tweet-button/guides/web-intent'
 - it generates quotes and their author
 
 >Features
