@@ -5,9 +5,7 @@
 > By clicking the favourites Button on the top left corner, your favourites list will be displayed and you can remove or unlike quotes that no longer speaks to you - you can do so by clicking the red heart icon associated with the quote.
 
 > Checkout [Live Demo](https://pats101.github.io/inspiring-quote-generator/)
->> The API used is 'https://type.fit/api/quotes'
->>> twitter documentation: 'https://developer.twitter.com/en/docs/twitter-for-websites/tweet-button/guides/web-intent'
-- it generates quotes and their author
+>>> twitter documentation- it generates quotes and their author
 
 >Features
 - Home
